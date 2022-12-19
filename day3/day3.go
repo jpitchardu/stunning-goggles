@@ -12,7 +12,7 @@ func main() {
 	firstCompartment := line[len(line)/2:]
 	secondCompartment := line[:len(line)/2]
 
-	var duplicate string
+	var duplicate byte
 
 	fmt.Println(duplicate)
 
@@ -25,6 +25,6 @@ func main() {
 
 	fmt.Println(firstCompartment, secondCompartment)
 
-	fmt.Println("a"[0] - 96)
+	fmt.Println(duplicate)
 
 }
